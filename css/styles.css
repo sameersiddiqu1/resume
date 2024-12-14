@@ -79,6 +79,20 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+.centered-text {
+  text-align: center; /* Centers the text horizontally */
+  line-height: 1.5; /* Adjusts spacing between lines */
+}
+
+.centered-text h1 {
+  margin: 0; /* Removes extra space above and below the first line */
+}
+
+.centered-text h2 {
+  margin: 0; /* Removes extra space above and below the second line */
+  font-weight: normal; /* Optional: Makes the second line visually distinct */
+}
+
 
 *,
 *::before,
